@@ -1,81 +1,79 @@
-
-:root{
-    --general-text-color: #757575;
-    --tittle-color: #212121;
-    --secondary-color: #FFFFFF;
-    --accent-color: #2196F3;
+:root {
+  --general-text-color: #757575;
+  --tittle-color: #212121;
+  --secondary-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
-body{
-    background-color: var(--secondary-color);
+body {
+  background-color: var(--secondary-color);
 }
-.hero{
-    background-color: #2F303A;
+.hero {
+  background-color: #2f303a;
 }
-.tittle{
-    color: var(--secondary-color);
-}   
-    
-.subtitle{
-    color: var(--tittle-color);
+.tittle {
+  color: var(--secondary-color);
 }
-.text{
-    color: var(--general-text-color);
+
+.subtitle {
+  color: var(--tittle-color);
+}
+.text {
+  color: var(--general-text-color);
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
-.logo{
-    color: #000000;
-    text-decoration: none;
+.logo {
+  color: #000000;
+  text-decoration: none;
 }
-.logoweb{
-    color: #2196F3;
+.logoweb {
+  color: #2196f3;
 }
-.nav-list .link{
-    color: var(--tittle-color);
-    text-decoration: none;
-    
+.nav-list .link {
+  color: var(--tittle-color);
+  text-decoration: none;
 }
 .nav-list .link:hover,
-.nav-list .link:focus{
-    color: var(--accent-color);
-} 
-.contact-list .link{
-color: var(--tittle-color);
-text-decoration: none;
-}   
-.contact-list .link:hover, 
-.contact-list .link:focus{
-color: var(--accent-color);
+.nav-list .link:focus {
+  color: var(--accent-color);
 }
-.button{
-    background-color: #FFFFFF;
-    color: var(--tittle-color)
+.contact-list .link {
+  color: var(--tittle-color);
+  text-decoration: none;
+}
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--accent-color);
+}
+.button {
+  background-color: #ffffff;
+  color: var(--tittle-color);
 }
 .button:hover,
-.button:focus{
-    background-color: var(--accent-color);
-    color: #FFFFFF;
+.button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
-.team{
-    background-color: #F5F4FA;
+.team {
+  background-color: #f5f4fa;
 }
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
-.logofooter{
-    color: #FFFFFF;
-    text-decoration: none;
+.logofooter {
+  color: #ffffff;
+  text-decoration: none;
 }
-.address-list .street{
-    color: var(--secondary-color);
+.address-list .street {
+  color: var(--secondary-color);
 }
-.address-list .contact{
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+.address-list .contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .address-list .contact:hover,
-.address-list .contact:focus{
-color: var(--accent-color)
+.address-list .contact:focus {
+  color: var(--accent-color);
 }
