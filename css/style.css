@@ -95,7 +95,7 @@ body {
 .nav-list-link,
 .contact-list-link,
 .contact-list-tel {
-  color: var(--tittle-color);
+  color: var(--general-text-color);
   text-decoration: none;
   font-family: 'Roboto';
   font-weight: 500;
