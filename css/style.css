@@ -53,22 +53,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 .text {
-  /* color: var(--general-text-color); */
   font-family: 'Roboto';
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 .text-benefits {
-  /* color: var(--general-text-color); */
   font-family: 'Roboto';
-  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -92,9 +86,16 @@ body {
 .logoweb {
   color: var(--accent-color);
 }
-.nav-list-link,
-.contact-list-link,
-.contact-list-tel {
+.nav-list-link{
+  color: var(--tittle-color);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em
+}
+.contact-list-link{
   color: var(--general-text-color);
   text-decoration: none;
   font-family: 'Roboto';
@@ -150,7 +151,6 @@ body {
   color: var(--secondary-color);
   font-family: 'Roboto';
   font-style: normal;
-  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -160,7 +160,6 @@ body {
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
-  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -215,8 +214,10 @@ body {
 .text-work {
   color: var(--general-text-color);
   font-family: 'Roboto';
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+}
+.team-item{
+  background-color: var(--secondary-color);
 }
